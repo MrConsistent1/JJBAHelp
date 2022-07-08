@@ -1,0 +1,122 @@
+{
+    "name": "jjba",
+    "title": "JoJo Bizzare Adventure Roleplaying System",
+    "description": "A system for playing JoJo in a TTRPG.",
+    "version": "2",
+    "author": "Isaac Murrrall",
+    "scripts": [],
+    "esmodules": ["jjba.js"],
+    "styles": ["jjba.css"],
+    "packs": [
+      {
+        "name": "heroes",
+        "label": "Starter Heroes",
+        "system": "jjba",
+        "path": "./packs/heroes.db",
+        "type": "Actor"
+      },
+      {
+        "name": "monsters",
+        "label": "Monsters (SRD)",
+        "system": "jjba",
+        "path": "./packs/monsters.db",
+        "type": "Actor"
+      },
+      {
+        "name": "items",
+        "label": "Items (SRD)",
+        "system": "jjba",
+        "path": "./packs/items.db",
+        "type": "Item"
+      },
+      {
+        "name": "tradegoods",
+        "label": "Trade Goods (SRD)",
+        "system": "jjba",
+        "path": "./packs/tradegoods.db",
+        "type": "Item"
+      },
+      {
+        "name": "spells",
+        "label": "Spells (SRD)",
+        "system": "jjba",
+        "path": "./packs/spells.db",
+        "type": "Item"
+      },
+      {
+        "name": "backgrounds",
+        "label": "Backgrounds (SRD)",
+        "system": "jjba",
+        "path": "./packs/backgrounds.db",
+        "entity": "Item",
+        "type": "Item"
+      },
+      {
+        "name": "classes",
+        "label": "Classes (SRD)",
+        "system": "jjba",
+        "path": "./packs/classes.db",
+        "type": "Item"
+      },
+      {
+        "name": "subclasses",
+        "label": "Subclasses (SRD)",
+        "system": "jjba",
+        "path": "./packs/subclasses.db",
+        "type": "Item"
+      },
+      {
+        "name": "classfeatures",
+        "label": "Class Features (SRD)",
+        "system": "jjba",
+        "path": "./packs/classfeatures.db",
+        "type": "Item"
+      },
+      {
+        "name": "races",
+        "label": "Racial Features (SRD)",
+        "system": "jjba",
+        "path": "./packs/races.db",
+        "type": "Item"
+      },
+      {
+        "name": "monsterfeatures",
+        "label": "Monster Features (SRD)",
+        "system": "jjba",
+        "path": "./packs/monsterfeatures.db",
+        "type": "Item"
+      },
+      {
+        "name": "rules",
+        "label": "Rules (SRD)",
+        "system": "jjba",
+        "path": "./packs/rules.db",
+        "type": "JournalEntry"
+      },
+      {
+        "name": "tables",
+        "label": "Tables (SRD)",
+        "system": "jjba",
+        "path": "./packs/tables.db",
+        "type": "RollTable"
+      }
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "socket": true,
+    "gridDistance": 1,
+    "gridUnits": "M",
+    "primaryTokenAttribute": "health",
+    "secondaryTokenAttribute": "resolve",
+    "minimumCoreVersion": "9.245",
+    "compatibleCoreVersion": "9",
+    "url": "https://github.com/foundryvtt/jjba/",
+    "manifest": "https://raw.githubusercontent.com/foundryvtt/jjba/master/system.json",
+    "download": "https://github.com/foundryvtt/jjba/releases/download/release-1.6.3/jjba-1.6.3.zip"
+  }
+  
